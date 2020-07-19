@@ -1,0 +1,6 @@
+<h1> Activate <%= @student.to_s %>?</h1>
+<form method= "Post" action="/students">
+    <input type="checkbox" name="active">
+    <label for="active">Active</label>
+    <button type="submit">Submit</button>
+</form>
